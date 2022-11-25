@@ -1,7 +1,6 @@
 let btn_filter = document.querySelector('.category_show');
 let left_side = document.querySelector('.left_side');
 let iconBars = document.querySelector('.icon_bars');
-let iconClose = document.querySelector('.icon_close');
 let lists = document.querySelector('nav ul');
 let li = document.querySelectorAll('.li a');
 let logo = document.querySelector('nav .logo');
@@ -138,8 +137,6 @@ onscroll = function(){
 // })
 
 iconBars.addEventListener('click',()=>{
-    // iconBars.style.display = 'none';
-    // iconClose.style.display = 'block';
     lists.classList.toggle('lists_show');
     logo.classList.toggle('close_logo');
     left_side.classList.remove('active_side_left');
