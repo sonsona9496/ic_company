@@ -147,15 +147,15 @@ iconBars.addEventListener('click',()=>{
     btn_filter.classList.toggle('close_filter');
 })
 
-li.forEach(ele =>{
-    ele.addEventListener('click' ,()=>{
-        li.forEach(ele=>{
-            ele.classList.remove('active_link');
-            dropwMenu.classList.remove('active_drop');
-        });
-        ele.classList.add('active_link');
-    })
-})
+// li.forEach(ele =>{
+//     ele.addEventListener('click' ,()=>{
+//         li.forEach(ele=>{
+//             ele.classList.remove('active_link');
+//             dropwMenu.classList.remove('active_drop');
+//         });
+//         ele.classList.add('active_link');
+//     })
+// })
 sevice_menu.onclick = ()=>{
     dropwMenu.classList.toggle('active_drop');
 }
